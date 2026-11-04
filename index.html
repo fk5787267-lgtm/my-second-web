@@ -5,7 +5,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>first project</title>
-    <link rel="stylesheet" href="first project.css ">
+    <link rel="stylesheet" href="first project.css">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
 
 
@@ -17,7 +17,6 @@
         <div class="section">
 
             <ul type="none" class="first">
-
                 <li>Home</li>
                 <li>Service</li>
                 <li>About</li>
@@ -28,11 +27,20 @@
 
             </ul>
 
-            <div class="three" style="color: white; font-size: 25px;">
-                <i class="fa fa-bars">
-
-                </i>
-            </div>
+            <details class="three">
+                <summary aria-label="Toggle navigation">
+                    <i class="fa fa-bars" aria-hidden="true"></i>
+                </summary>
+                <ul type="none" class="first">
+                    <li>Home</li>
+                    <li>Service</li>
+                    <li>About</li>
+                    <li>Blog</li>
+                    <li>contat</li>
+                    <li>partner</li>
+                    <li>Mobile App</li>
+                </ul>
+            </details>
         </div>
 
 
@@ -243,10 +251,10 @@
             </div>
         </div>
 
-        <div class="color">
-            <div class="car"><img class="car-sty" src="my.png" alt=""></div>
-
-            <div class="start">
+        <footer class="color">
+            <div class="footer-top">
+                <div class="car"><img class="car-sty" src="my.png" alt="MySyara branded car"></div>
+                <div class="start">
                 <div class="item">
                     <div class="icon">
                         <i class="fa-solid fa-phone" class="faa"></i>
@@ -276,67 +284,64 @@
                     </div>
                 </div>
             </div>
-            <div class="brand">
-                <i class="fa-brands fa-tiktok"></i>
-                <i class="fa-brands fa-instagram"></i>
+            </div>
+            <div class="brand" aria-label="Social media">
                 <i class="fa-brands fa-facebook-f"></i>
+                <i class="fa-brands fa-instagram"></i>
                 <i class="fa-brands fa-twitter"></i>
+                <i class="fa-brands fa-tiktok"></i>
                 <i class="fa-brands fa-youtube"></i>
                 <i class="fa-brands fa-linkedin-in"></i>
             </div>
-            <div class="foot">
-                <img src="pics may.png" alt=""><br><br>
-                <p style="height: 23px; width:250px ;">Car care on your schedule! Convient, high quality and <br>
-                    affordable
-                    car services, built for the digital age.
-                </p>
-            </div>
-            <div class="flex">
-                <div class="CC">
-                    <!-- https://themewagon.github.io/chefs-kitchen-nextjs-free/ -->
-                    <div class="cc">
-                        <p>We Accept</p>
-                        <i class="fa-brands fa-cc-mastercard"></i>
-                        <i class="fa-brands fa-cc-visa"></i>
-                    </div>
-                    <div class="now">
-                        <p>Download Now</p>
-                        <img style="height: 20px;width: 65px;" src="apple.png" alt=""><img
-                            style="height: 20px;width: 65px;" src="play.png" alt="">
-                    </div>
+            <div class="footer-main">
+                <div class="foot">
+                    <img src="pics may.png" alt="MySyara">
+                    <p>Car care on your schedule! Convenient, high quality and
+                        affordable car services, built for the digital age.</p>
                 </div>
-                <div class="list">
-                    <ul type="none" class="ul-1">
-                        <li>Home</li>
-                        <li>Service</li>
-                        <li>About</li>
-                        <li>Contact</li>
-                    </ul>
-                    <ul type="none" class="ul-1">
-                        <li>Blog</li>
-                        <li>Faqs</li>
-                        <li>Term & Condition</li>
-                        <li>Privacy policy</li>
+                <div class="flex">
+                    <div class="CC">
+                        <div class="cc">
+                            <p>We Accept</p>
+                            <i class="fa-brands fa-cc-mastercard"></i>
+                            <i class="fa-brands fa-cc-visa"></i>
+                        </div>
+                        <div class="now">
+                            <p>Download Now</p>
+                            <img src="apple.png" alt="Download on the App Store"><img
+                                src="play.png" alt="Get it on Google Play">
+                        </div>
+                    </div>
+                    <div class="list">
+                        <ul type="none" class="ul-1">
+                            <li>Home</li>
+                            <li>Services</li>
+                            <li>About</li>
+                            <li>Contact</li>
+                        </ul>
+                        <ul type="none" class="ul-1">
+                            <li>Blog</li>
+                            <li>FAQs</li>
+                            <li>Terms &amp; Conditions</li>
+                            <li>Privacy Policy</li>
 
-                    </ul>
+                        </ul>
+                    </div>
                 </div>
             </div>
-            <footer class="for">
+            <p class="for">
                 Copyright © 2019 MySyara. All rights reserved
-            </footer>
+            </p>
             <div class="call">
                 <section class="call1">
                     <div><i class="fa-solid fa-phone"></i></div>
                     <div>CALL US</div>
-                    <div>
-                        <p class:ending>|</p>
-                    </div>
+                    <span class="ending">|</span>
                     <div>WHATSAPP</div>
                 </section>
             </div>
-        </div>
-
-
+        </footer>
+    </div>
 </body>
 
 </html>
